@@ -37,6 +37,13 @@
   }
 }
 
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
 .ball {
   animation-name: bounceBall;
   animation-duration: 1.2s;

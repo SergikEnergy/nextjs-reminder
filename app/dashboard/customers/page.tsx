@@ -1,13 +1,5 @@
-import { Suspense } from 'react';
-import Loading from './loading';
-import { LoaderTest } from '@/app/ui/customers/loader-test';
-
 const Page = () => {
-  return (
-    <Suspense fallback={<Loading />}>
-      <LoaderTest />
-    </Suspense>
-  );
+  return <p>Customers</p>;
 };
 
 export default Page;
